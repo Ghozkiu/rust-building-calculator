@@ -1,3 +1,5 @@
+# [Preview](https://symphonious-cobbler-0baf50.netlify.app)
+![alt text](https://i.postimg.cc/HnRRVf2C/imagen-2023-04-04-003646294.png)
 # RustBuildingCalculator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
