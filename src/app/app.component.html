@@ -1,0 +1,41 @@
+<div class="container-fluid">
+  <div class="row">
+    <app-menu
+      [twigBuildings]="twigBuildings"
+      [woodBuildings]="woodBuildings"
+      [stonesBuildings]="stonesBuildings"
+      [metalFragmentsBuildings]="metalFragmentsBuildings"
+      [armoredBuildings]="armoredBuildings"
+      (onClickMenuItem)="addNewCard($event)"
+      (onClickClear)="clearCards()"
+      class="col"
+    ></app-menu>
+  </div>
+  <div class="row">
+    <app-history
+      [buildings]="cards"
+      class="col-12 col-sm-4 col-md-3"
+    ></app-history>
+    <!-- bg-m-history h-auto min-vh-100 rounded-lg -->
+    <app-cards-display
+      (onClickDeleteCard)="deleteCard($event)"
+      [cards]="cards"
+      class="col-12 col-sm-8 col-md-9"
+    ></app-cards-display>
+    <!-- (onUpdateCardsData)="updateCardsData($event)" -->
+  </div>
+</div>
+
+
+
+
+<div class="row">
+  <div class="col">
+    <button></button><button></button><button></button>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <button></button><button></button><button></button>
+  </div>
+</div>

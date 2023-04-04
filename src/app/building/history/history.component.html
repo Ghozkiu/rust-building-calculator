@@ -1,0 +1,8 @@
+<h2 class="mt-2">Total Costs</h2>
+<p *ngIf="isBuildingsEmpty()" class="h6">Nothing yet :(</p>
+<ul *ngIf="!isBuildingsEmpty()" class="list-group">
+  <li *ngFor="let material of buildings | material" class="list-group-item">
+    <span class="font-weight-bold">{{ material.material | titlecase }}:</span>
+    {{ material.quantity | number }}
+  </li>
+</ul>

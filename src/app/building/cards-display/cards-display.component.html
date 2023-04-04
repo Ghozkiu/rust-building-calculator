@@ -1,0 +1,15 @@
+<div class="container-fluid">
+  <div class="row justify-content-center justify-content-sm-start">
+    <!-- <app-card class="col-12 col-md-6 col-xl-4"></app-card>
+    <app-card class="col-12 col-md-6 col-xl-4"></app-card>
+    <app-card class="col-12 col-md-6 col-xl-4"></app-card>
+    <app-card class="col-12 col-md-6 col-xl-4"></app-card> -->
+    <app-card
+      *ngFor="let building of cards"
+      class="col-12 col-md-6 col-xl-3"
+      [building]="building"
+      (onClickDelete)="emitDeleteItem($event)"
+    ></app-card>
+    <!-- (onIncrementCounter)="updateCardsData($event)" -->
+  </div>
+</div>

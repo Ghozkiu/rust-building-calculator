@@ -1,0 +1,63 @@
+<div class="card mt-3 mt-sm-2 shadow p-3 mb-5 bg-white rounded">
+  <!-- <img src="" class="card-img-top" alt="..." /> -->
+  <div class="card-body position-relative">
+    <h5 class="card-title">
+      {{ building.name | titlecase }}
+    </h5>
+    <p class="card-text">
+      <span class="font-weight-bold">Cost: </span> {{ building.cost }}
+    </p>
+    <p class="card-text">
+      <span class="font-weight-bold">Resources: </span> {{ building.material }}
+    </p>
+    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <hr class="my-1" />
+    <label class="font-weight-bold mb-0" for="quantity">Quantity</label>
+
+    <!-- Button  -->
+    <p class="mb-4">
+      <small class=""
+        ><span class="font-weight-bold">Total resources: </span
+        >{{ building.quantity * building.cost }}</small
+      >
+    </p>
+    <div class="input-group mb-3 w-50 inline-block position-absolute spinner">
+      <div class="input-group-prepend">
+        <button
+          (click)="counterOperation(-1)"
+          class="btn btn-outline-dark btn-dark text-light"
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <input
+        id="quantity"
+        type="number"
+        class="form-control"
+        placeholder="0"
+        aria-label="Quantity"
+        aria-describedby="basic-addon1"
+        [value]="building.quantity"
+        #inputQty
+        (keyup)="applyCounter(+inputQty.value)"
+      />
+      <div class="input-group-append">
+        <button
+          (click)="counterOperation(+1)"
+          class="btn btn-outline-dark btn-dark text-light"
+          type="button"
+        >
+          +
+        </button>
+      </div>
+    </div>
+
+    <button
+      (click)="delete()"
+      class="btn btn-danger position-absolute card-delete"
+    >
+      <i class="fa-solid fa-trash"></i>
+    </button>
+  </div>
+</div>

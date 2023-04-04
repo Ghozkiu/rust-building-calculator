@@ -1,0 +1,236 @@
+import { Building } from '../interfaces/building.interface';
+
+export const twigData: Building[] = [
+  { material: 'wood', cost: 50, name: 'twig square foundation', quantity: 0 },
+  { material: 'wood', cost: 25, name: 'twig triangle foundation', quantity: 0 },
+  { material: 'wood', cost: 25, name: 'twig foundation stairs', quantity: 0 },
+  { material: 'wood', cost: 25, name: 'twig square floor', quantity: 0 },
+  { material: 'wood', cost: 13, name: 'twig triangle floor', quantity: 0 },
+  { material: 'wood', cost: 50, name: 'twig wall', quantity: 0 },
+  { material: 'wood', cost: 50, name: 'twig half wall', quantity: 0 },
+  { material: 'wood', cost: 25, name: 'twig long wall', quantity: 0 },
+  { material: 'wood', cost: 35, name: 'twig doorway', quantity: 0 },
+  { material: 'wood', cost: 35, name: 'twig window', quantity: 0 },
+  { material: 'wood', cost: 25, name: 'twig wall frame', quantity: 0 },
+  { material: 'wood', cost: 25, name: 'twig floor frame', quantity: 0 },
+  { material: 'wood', cost: 50, name: 'twig stairs', quantity: 0 },
+  { material: 'wood', cost: 50, name: 'twig roof', quantity: 0 },
+];
+
+export const woodData: Building[] = [
+  {
+    material: 'wood',
+    cost: 200,
+    name: 'wooden square foundation',
+    quantity: 0,
+  },
+  {
+    material: 'wood',
+    cost: 100,
+    name: 'wooden triangle foundation',
+    quantity: 0,
+  },
+  {
+    material: 'wood',
+    cost: 100,
+    name: 'wooden foundation stairs',
+    quantity: 0,
+  },
+  { material: 'wood', cost: 100, name: 'wooden square floor', quantity: 0 },
+  { material: 'wood', cost: 50, name: 'wooden triangle floor', quantity: 0 },
+  { material: 'wood', cost: 200, name: 'wooden wall', quantity: 0 },
+  { material: 'wood', cost: 200, name: 'wooden half wall', quantity: 0 },
+  { material: 'wood', cost: 100, name: 'wooden long wall', quantity: 0 },
+  { material: 'wood', cost: 140, name: 'wooden doorway', quantity: 0 },
+  { material: 'wood', cost: 140, name: 'wooden window', quantity: 0 },
+  { material: 'wood', cost: 100, name: 'wooden wall frame', quantity: 0 },
+  { material: 'wood', cost: 100, name: 'wooden floor frame', quantity: 0 },
+  { material: 'wood', cost: 200, name: 'wooden stairs', quantity: 0 },
+  { material: 'wood', cost: 200, name: 'wooden roof', quantity: 0 },
+];
+
+export const stonesData: Building[] = [
+  {
+    material: 'stones',
+    cost: 300,
+    name: 'stone square foundation',
+    quantity: 0,
+  },
+  {
+    material: 'stones',
+    cost: 150,
+    name: 'stone triangle foundation',
+    quantity: 0,
+  },
+  {
+    material: 'stones',
+    cost: 150,
+    name: 'stone foundation stairs',
+    quantity: 0,
+  },
+  { material: 'stones', cost: 150, name: 'stone square floor', quantity: 0 },
+  { material: 'stones', cost: 75, name: 'stone triangle floor', quantity: 0 },
+  { material: 'stones', cost: 300, name: 'stone wall', quantity: 0 },
+  { material: 'stones', cost: 300, name: 'stone half wall', quantity: 0 },
+  { material: 'stones', cost: 150, name: 'stone long wall', quantity: 0 },
+  { material: 'stones', cost: 210, name: 'stone doorway', quantity: 0 },
+  { material: 'stones', cost: 210, name: 'stone window', quantity: 0 },
+  { material: 'stones', cost: 150, name: 'stone wall frame', quantity: 0 },
+  { material: 'stones', cost: 150, name: 'stone floor frame', quantity: 0 },
+  { material: 'stones', cost: 300, name: 'stone stairs', quantity: 0 },
+  { material: 'stones', cost: 300, name: 'stone roof', quantity: 0 },
+];
+
+export const metalFragmentsData: Building[] = [
+  {
+    material: 'metal fragments',
+    cost: 200,
+    name: 'metal square foundation',
+    quantity: 0,
+  },
+  {
+    material: 'metal fragments',
+    cost: 100,
+    name: 'metal triangle foundation',
+    quantity: 0,
+  },
+  {
+    material: 'metal fragments',
+    cost: 200,
+    name: 'metal foundation stairs',
+    quantity: 0,
+  },
+  {
+    material: 'metal fragments',
+    cost: 100,
+    name: 'metal square floor',
+    quantity: 0,
+  },
+  {
+    material: 'metal fragments',
+    cost: 50,
+    name: 'metal triangle floor',
+    quantity: 0,
+  },
+  { material: 'metal fragments', cost: 200, name: 'metal wall', quantity: 0 },
+  {
+    material: 'metal fragments',
+    cost: 200,
+    name: 'metal half wall',
+    quantity: 0,
+  },
+  {
+    material: 'metal fragments',
+    cost: 100,
+    name: 'metal long wall',
+    quantity: 0,
+  },
+  {
+    material: 'metal fragments',
+    cost: 140,
+    name: 'metal doorway',
+    quantity: 0,
+  },
+  { material: 'metal fragments', cost: 140, name: 'metal window', quantity: 0 },
+  {
+    material: 'metal fragments',
+    cost: 100,
+    name: 'metal wall frame',
+    quantity: 0,
+  },
+  {
+    material: 'metal fragments',
+    cost: 100,
+    name: 'metal floor frame',
+    quantity: 0,
+  },
+  { material: 'metal fragments', cost: 200, name: 'metal stairs', quantity: 0 },
+  { material: 'metal fragments', cost: 200, name: 'metal roof', quantity: 0 },
+];
+
+export const armoredData: Building[] = [
+  {
+    material: 'high quality metal',
+    cost: 25,
+    name: 'armored square foundation',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 13,
+    name: 'armored triangle foundation',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 25,
+    name: 'armored foundation stairs',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 13,
+    name: 'armored square floor',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 7,
+    name: 'armored triangle floor',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 25,
+    name: 'armored wall',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 25,
+    name: 'armored half wall',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 13,
+    name: 'armored long wall',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 18,
+    name: 'armored doorway',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 18,
+    name: 'armored window',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 13,
+    name: 'armored wall frame',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 13,
+    name: 'armored floor frame',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 25,
+    name: 'armored stairs',
+    quantity: 0,
+  },
+  {
+    material: 'high quality metal',
+    cost: 25,
+    name: 'armored roof',
+    quantity: 0,
+  },
+];

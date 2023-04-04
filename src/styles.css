@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --card-bg-color: rgb(248, 248, 248);
+  --history-bg-color: #373b3d;
+
+  --twig-color: #dbc89a;
+  --wooden-color: #59423e;
+  --stone-color: #9eabb5;
+  --armored-color: #454b4f;
+
+  --twig-color-hover: #c4b288;
+  --wooden-color-hover: #4e3936;
+  --stone-color-hover: #869199;
+  --armored-color-hover: #3a3f42;
+}
+
+.bg-m-card {
+  background-color: var(--card-bg-color);
+}
+
+.bg-m-history {
+  background-color: var(--history-bg-color);
+}
+
+.bg-m-twig {
+  background-color: var(--twig-color) !important;
+}
+
+.bg-m-wooden {
+  background-color: var(--wooden-color) !important;
+}
+
+.bg-m-stone {
+  background-color: var(--stone-color) !important;
+}
+
+.bg-m-armored {
+  background-color: var(--armored-color) !important;
+}
+
+.bg-m-twig:hover {
+  background-color: var(--twig-color-hover) !important;
+}
+
+.bg-m-wooden:hover {
+  background-color: var(--wooden-color-hover) !important;
+}
+
+.bg-m-stone:hover {
+  background-color: var(--stone-color-hover) !important;
+}
+
+.bg-m-armored:hover {
+  background-color: var(--armored-color-hover) !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.card-delete {
+  right: 10px;
+  bottom: 10px;
+  /* right: 0px;
+  top: 4px; */
+}
+
+.total-resources {
+  bottom: 15px;
+}
+
+.spinner {
+  bottom: -8px;
+}
